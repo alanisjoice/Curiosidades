@@ -1,0 +1,88 @@
+/* style.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: #e0f7fa;
+  color: #003c3c;
+}
+
+header {
+  background-color: #006064;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#introducao {
+  padding: 40px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background-color: #b2ebf2;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #00838f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #006064;
+}
+
+footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin: 10px 0;
+}
