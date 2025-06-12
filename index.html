@@ -1,93 +1,101 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Curiosidades da Biologia Marinha</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+<html lang="pt-BR">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Descubra curiosidades fascinantes sobre ciência, natureza e o universo.">
+  <meta name="keywords" content="curiosidades, ciência, universo, natureza, fatos incríveis, conhecimento">
+  <meta name="author" content="Alanis Araujo">
+  <title>Curiosidades Incríveis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
   <header>
-    <h1>🌊 Biologia Marinha</h1>
-    <nav>
-      <ul>
-        <li><a href="#introducao">Introdução</a></li>
-        <li><a href="#curiosidades">Curiosidades</a></li>
-        <li><a href="#footer">Contato</a></li>
+    <h1>Curiosidades Incríveis</h1>
+    <nav aria-label="Menu principal">
+      <ul class="nav-menu">
+        <li><a href="coral.html">Você sabia?</a></li>
+        <li><a href="baleia.html">Fato curioso</a></li>
+        <li><a href="tubarao.html">Incrível!</a></li>
       </ul>
     </nav>
   </header>
 
-  <nav>
-    <a href="#">Inicio</a>
-    <a href="#curiosidade">Curiosidades</a>
-    <a href="#videos">Vídeos</a>
-    <a href="#galeria">Galeria</a>
-    <a href="#link">Links úteis</a>
-  </nav>
-
-  <section style="text-align: center; magin: 30px 0;">
-    <h2> Assunto curiosos</h2>
-    <ul styl="list-style: none; paing:0;">
-      <li><a href=#ancora1>Polvo tem 3 corações</a></li>
-      <li><a href=#ancora2> A baleia-azul é o maior animal do planeta </a></li>
-      <li><a href=#ancora3>Alguns peixes-palhaço mudam de sexo durante a vida.</a></li>
-      <li><a href=#ancora4>Tubarões existem há mais de 400 milhões de anos.</a></li>
-      <li><a href=#ancora5> Os recifes de coral </a></li>
-    </ul>
-  </section>
-
   <main>
-
-    <section id="introducao">
-      <h2>O Fascinante Mundo Marinho</h2>
-      <p>Explore fatos incríveis sobre os organismos que vivem nos oceanos. 
-        A biologia marinha estuda desde microrganismos até baleias gigantes.</p>
+    <!-- Introdução -->
+    <section class="intro" aria-labelledby="intro-title">
+      <h2 id="intro-title">Bem-vindo</h2>
+      <p>Descubra curiosidades fascinantes sobre a vida marinha!</p>
     </section>
 
-    <section id="curiosidades" class="cards">
-      <!-- Cards de curiosidades -->
-      <div class="card">🐙 O polvo tem três corações. Dois deles são responsáveis por bombear o sangue para as brânquias, enquanto o terceiro coração bombeia o sangue para o resto do corpo. 
-        Essa adaptação única ajuda o polvo a sobreviver em ambientes aquáticos com baixos níveis de oxigênio.</div>
-      <div class="card">🐋  A baleia-azul (Balaenoptera musculus) é considerada o maior animal do planeta, podendo chegar a medir até 30 metros de comprimento e pesar até 180 toneladas. 
-        É um mamífero marinho impressionante, conhecido por sua enorme tamanho
-         e capacidade de produzir sons de baixa frequência que podem ser ouvidos a grandes distâncias no oceano.</div>
-      <div class="card">🐠 Os peixes-palhaço (gênero Amphiprion) são hermafroditas sequenciais, o que significa que podem mudar de sexo durante a vida.
-         Geralmente, eles nascem machos e, se o peixe dominante morrer, o maior peixe subordinado pode mudar de sexo para fêmea e assumir o papel dominante no grupo. 
-         Essa adaptação única é conhecida como hermafroditismo protândrico.
-</div>
-      <div class="card">🦈 Os tubarões existem há mais de 400 milhões de anos, desde o período Siluriano ou Devoniano. 
-        Eles são um dos grupos de animais mais antigos e resistentes do planeta, tendo sobrevivido a várias extinções em massa e se adaptado a diferentes ambientes marinhos ao longo da história evolutiva da Terra.</div>
-      <div class="card">🌿 Recifes de coral são ecossistemas marinhos biodiversos que abrigam muitas espécies e protegem as costas, mas enfrentam ameaças como aquecimento global e poluição.</div>
-      <button id="randomBtn">Mostrar curiosidade aleatória</button>
+    <!-- LINKS DE ASSUNTOS CURIOSOS COM ÂNCORAS -->
+    <section class="ancora-menu">
+      <ul>
+        <li><a href="#ancoral">🐙 O sangue azul dos polvos</a></li>
+        <li><a href="#ancora2">A baleia-azul </a></li>
+        <li><a href="#ancora3">🌠 Tubarão</a></li>
+      </ul>
     </section>
 
-    <section class="vio-ction" id="VIDEO">
-      <h2>Veja também:</h2>
-      <p> assista a um víeo cheio de curiosidades interessantes!</p>
-      <iframe rc="<iframe width="560" height="315" src="https://www.youtube.com/embed/xrvTy9jFTLw?si=Kkmo57vASLbiZ9m_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"allowfullcrn></iframe>
+    <!-- Vídeo -->
+    <section class="video-section" id="videos" aria-labelledby="video-title">
+      <h2 id="video-title">Veja também</h2>
+      <p>Assista a um vídeo cheio de curiosidades interessantes!</p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="<iframe width="560" height="315" src="https://youtu.be/Ac9atq2OkU0?si=DsHkOe4lMK-QiqDI"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
     </section>
 
-    <section class="galeria" id="galeria">
-      <img src="Vida Marinha.jpeg"alt="agua viva"  width="300" height="250"
-      <img src="Tartaruga.jpg" alt="tartaruga" width="250" height="250"
-      <img src="Baleia.jpg" alt="baleia-azul" width="250" height="250"
+    <!-- Seções de destino das âncoras -->
+    <section id="ancoral" class="curiosidade-detalhe">
     </section>
-     <p>
-      <a href="#topo"> Topo </a>
-     </p>
+
+    <section id="ancora2" class="curiosidade-detalhe">
+    </section>
+
+    <section id="ancora3" class="curiosidade-detalhe">
+    </section>
+
+    <!-- Cartões de curiosidades -->
+    <section class="curiosidades" aria-labelledby="curiosidades-title">
+      <a href="polvo.html" class="curiosidade-card" aria-label="Leia mais sobre o coral">
+        <img src="polvo.png" alt="Imagem de um polvo, animal com três corações">
+        <div class="curiosidade-info">
+          <h3>Você sabia?</h3>
+          <p>O polvo tem três corações e o sangue azul!</p>
+        </div>
+      </a>
+
+      <a href="baleia.html" class="curiosidade-card" aria-label="Leia mais sobre a Baleia">
+        <img src="baleia.html" alt="Imagem da Baleia">
+        <div class="curiosidade-info">
+          <h3>Fato curioso</h3>
+          <p>A Baleia azul é o maior mamifero existente.</p>
+        </div>
+      </a>
+
+      <a href="tubarao.html" class="curiosidade-card" aria-label="Leia mais sobre os tubarões">
+        <img src="tubara.png" alt="Tubarão">
+        <div class="curiosidade-info">
+          <h3>Incrível!</h3>
+          <p>Quando um tubarão para de nadar, ele afunda.</p>
+        </div>
+      </a>
+    </section>
+     <a href="#topo" id="topo"></a>
   </main>
 
-  <footer id="footer">
-    <p>Feito por [Alanis e Joice]</p>
-    <ul>
-      <li><a href="https://www.nationalgeographic.com/environment/oceans" target="_blank">National Geographic - Oceanos</a></li>
-      <li><a href="https://pt.wikipedia.org/wiki/Biologia_marinha" target="_blank">Wikipedia - Biologia Marinha</a></li>
-    </ul>
+  <footer>
+    <p>
+      Site desenvolvido por <strong>Alanis Araujo e Joice Narciso</strong><br>
+      Colégio Estadual Vicente Rijo - Londrina, PR
+    </p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
+
 </html>
